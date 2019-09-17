@@ -28,14 +28,12 @@ Bot.on('error', (err) => {
   console.log(err)
 });
 
-
 Bot.on('message', (chatter) => {
   if (chatter.message.toLowerCase().indexOf("!hayeshype") === 0) {
     let msg = "hayesmAkerHype hayesmAkerC64 hayesmAkerClyde CurseLit hayesmAkerHype hayesmAkerC64 hayesmAkerClyde CurseLit hayesmAkerHype hayesmAkerC64 hayesmAkerClyde CurseLit hayesmAkerHype hayesmAkerC64 hayesmAkerClyde CurseLit hayesmAkerHype hayesmAkerC64 hayesmAkerClyde CurseLit hayesmAkerHype hayesmAkerC64 hayesmAkerClyde CurseLit hayesmAkerHype hayesmAkerC64 hayesmAkerClyde CurseLit hayesmAkerHype hayesmAkerC64 hayesmAkerClyde"
     Bot.say(msg)
   }
 });
-
 
 io.on('connection', (socket) => {
   socket.on('disconnect', () => {
@@ -49,10 +47,6 @@ io.on('connection', (socket) => {
   socket.on('command:build', (args) => {
     console.log("command:build received with args ", args[0]);
     //todo: launch your shit here!
-  });
-
-  socket.on('overlay:title:change', (data) => {
-    //io.sockets.emit('overlay:title', data)
   });
 
 });
