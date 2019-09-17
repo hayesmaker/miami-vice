@@ -1,0 +1,23 @@
+{
+  "name": "miami-node",
+  "version": "0.1.0",
+  "description": "little helper for listening to webapps and launching custom cli commands for whatever!",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hayesmaker64",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.2.0",
+    "nodemon": "^1.18.4",
+    "socket.io": "^2.1.1",
+    "twitch-bot": "git+ssh://git@github.com/hayesmaker/twitch-bot.git#master"
+  }
+}
