@@ -39,4 +39,7 @@ the node server expects Twitch credentials to be set in a .env file inside miami
 //eg 
 
 //.env
+TWITCH_BOT_USER='username'
+TWITCH_BOT_OAUTH='oauth:zzzzzzzzzzzzzzzz'
+TWITCH_BOT_CHANNEL='channel-name'
 
