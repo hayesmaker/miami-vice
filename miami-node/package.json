@@ -17,7 +17,7 @@
     "lodash": "^4.17.11",
     "node-fetch": "^2.2.0",
     "nodemon": "^1.18.4",
-    "socket.io": "^2.1.1",
+    "socket.io": "^2.4.0",
     "twitch-bot": "git+ssh://git@github.com/hayesmaker/twitch-bot.git#master"
   }
 }
