@@ -15,7 +15,7 @@
     "cors": "^2.8.4",
     "dotenv": "^6.0.0",
     "lodash": "^4.17.11",
-    "node-fetch": "^2.2.0",
+    "node-fetch": "^2.6.7",
     "nodemon": "^1.18.4",
     "socket.io": "^2.1.1",
     "twitch-bot": "git+ssh://git@github.com/hayesmaker/twitch-bot.git#master"
